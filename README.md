@@ -1,1 +1,72 @@
 # mywebpage
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Website</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        .container{
+            width:80%;
+            margin:50px auto;
+            text-align:center;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            color:#4a4aff;
+        }
+
+        p{
+            font-size:18px;
+        }
+
+        button{
+            background:#4a4aff;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:8px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#3333cc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Welcome to My Website</h1>
+
+            <p><b>Name:</b> Gajina</p>
+            <p><b>Course:</b> Computer Science</p>
+            <p><b>College:</b> ABC College</p>
+
+            <button onclick="showMsg()">Click Me</button>
+        </div>
+    </div>
+
+    <script>
+        function showMsg(){
+            alert("Welcome to My Website!");
+        }
+    </script>
+
+</body>
+</html>
